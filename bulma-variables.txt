@@ -1,0 +1,414 @@
+base\generic.sass:$body-background-color: $white !default
+base\generic.sass:$body-size: 16px !default
+base\generic.sass:$body-rendering: optimizeLegibility !default
+base\generic.sass:$body-family: $family-primary !default
+base\generic.sass:$body-color: $text !default
+base\generic.sass:$body-weight: $weight-normal !default
+base\generic.sass:$body-line-height: 1.5 !default
+base\generic.sass:$code-family: $family-code !default
+base\generic.sass:$code-padding: 0.25em 0.5em 0.25em !default
+base\generic.sass:$code-weight: normal !default
+base\generic.sass:$code-size: 0.875em !default
+base\generic.sass:$hr-background-color: $background !default
+base\generic.sass:$hr-height: 2px !default
+base\generic.sass:$hr-margin: 1.5rem 0 !default
+base\generic.sass:$strong-color: $text-strong !default
+base\generic.sass:$strong-weight: $weight-bold !default
+elements\button.sass:$button-color: $grey-darker !default
+elements\button.sass:$button-background-color: $white !default
+elements\button.sass:$button-border-color: $grey-lighter !default
+elements\button.sass:$button-border-width: $control-border-width !default
+elements\button.sass:$button-padding-vertical: calc(0.375em - #{$button-border-width}) !default
+elements\button.sass:$button-padding-horizontal: 0.75em !default
+elements\button.sass:$button-hover-color: $link-hover !default
+elements\button.sass:$button-hover-border-color: $link-hover-border !default
+elements\button.sass:$button-focus-color: $link-focus !default
+elements\button.sass:$button-focus-border-color: $link-focus-border !default
+elements\button.sass:$button-focus-box-shadow-size: 0 0 0 0.125em !default
+elements\button.sass:$button-focus-box-shadow-color: rgba($link, 0.25) !default
+elements\button.sass:$button-active-color: $link-active !default
+elements\button.sass:$button-active-border-color: $link-active-border !default
+elements\button.sass:$button-text-color: $text !default
+elements\button.sass:$button-text-hover-background-color: $background !default
+elements\button.sass:$button-text-hover-color: $text-strong !default
+elements\button.sass:$button-disabled-background-color: $white !default
+elements\button.sass:$button-disabled-border-color: $grey-lighter !default
+elements\button.sass:$button-disabled-shadow: none !default
+elements\button.sass:$button-disabled-opacity: 0.5 !default
+elements\button.sass:$button-static-color: $grey !default
+elements\button.sass:$button-static-background-color: $white-ter !default
+elements\button.sass:$button-static-border-color: $grey-lighter !default
+elements\box.sass:$box-color: $text !default
+elements\box.sass:$box-background-color: $white !default
+elements\box.sass:$box-radius: $radius-large !default
+elements\box.sass:$box-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
+elements\box.sass:$box-padding: 1.25rem !default
+elements\box.sass:$box-link-hover-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $link !default
+elements\box.sass:$box-link-active-shadow: inset 0 1px 2px rgba($black, 0.2), 0 0 0 1px $link !default
+elements\icon.sass:$icon-dimensions: 1.5rem !default
+elements\icon.sass:$icon-dimensions-small: 1rem !default
+elements\icon.sass:$icon-dimensions-medium: 2rem !default
+elements\icon.sass:$icon-dimensions-large: 3rem !default
+elements\content.sass:$content-heading-color: $text-strong !default
+elements\content.sass:$content-heading-weight: $weight-semibold !default
+elements\content.sass:$content-heading-line-height: 1.125 !default
+elements\content.sass:$content-blockquote-background-color: $background !default
+elements\content.sass:$content-blockquote-border-left: 5px solid $border !default
+elements\content.sass:$content-blockquote-padding: 1.25em 1.5em !default
+elements\content.sass:$content-pre-padding: 1.25em 1.5em !default
+elements\content.sass:$content-table-cell-border: 1px solid $border !default
+elements\content.sass:$content-table-cell-border-width: 0 0 1px !default
+elements\content.sass:$content-table-cell-padding: 0.5em 0.75em !default
+elements\content.sass:$content-table-cell-heading-color: $text-strong !default
+elements\content.sass:$content-table-head-cell-border-width: 0 0 2px !default
+elements\content.sass:$content-table-head-cell-color: $text-strong !default
+elements\content.sass:$content-table-foot-cell-border-width: 2px 0 0 !default
+elements\content.sass:$content-table-foot-cell-color: $text-strong !default
+elements\form.sass:$input-color: $grey-darker !default
+elements\form.sass:$input-background-color: $white !default
+elements\form.sass:$input-border-color: $grey-lighter !default
+elements\form.sass:$input-shadow: inset 0 1px 2px rgba($black, 0.1) !default
+elements\form.sass:$input-hover-color: $grey-darker !default
+elements\form.sass:$input-hover-border-color: $grey-light !default
+elements\form.sass:$input-focus-color: $grey-darker !default
+elements\form.sass:$input-focus-border-color: $link !default
+elements\form.sass:$input-focus-box-shadow-size: 0 0 0 0.125em !default
+elements\form.sass:$input-focus-box-shadow-color: rgba($link, 0.25) !default
+elements\form.sass:$input-disabled-color: $text-light !default
+elements\form.sass:$input-disabled-background-color: $background !default
+elements\form.sass:$input-disabled-border-color: $background !default
+elements\form.sass:$input-arrow: $link !default
+elements\form.sass:$input-icon-color: $grey-lighter !default
+elements\form.sass:$input-icon-active-color: $grey !default
+elements\form.sass:$input-radius: $radius !default
+elements\form.sass:$file-border-color: $border !default
+elements\form.sass:$file-radius: $radius !default
+elements\form.sass:$file-cta-background-color: $white-ter !default
+elements\form.sass:$file-cta-color: $grey-dark !default
+elements\form.sass:$file-cta-hover-color: $grey-darker !default
+elements\form.sass:$file-cta-active-color: $grey-darker !default
+elements\form.sass:$file-name-border-color: $border !default
+elements\form.sass:$file-name-border-style: solid !default
+elements\form.sass:$file-name-border-width: 1px 1px 1px 0 !default
+elements\form.sass:$file-name-max-width: 16em !default
+elements\form.sass:$label-color: $grey-darker !default
+elements\form.sass:$label-weight: $weight-bold !default
+elements\form.sass:$help-size: $size-small !default
+elements\notification.sass:$notification-background-color: $background !default
+elements\notification.sass:$notification-radius: $radius !default
+elements\notification.sass:$notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
+elements\progress.sass:$progress-bar-background-color: $border !default
+elements\progress.sass:$progress-value-background-color: $text !default
+elements\image.sass:$dimensions: 16 24 32 48 64 96 128 !default
+elements\table.sass:$table-color: $grey-darker !default
+elements\table.sass:$table-background-color: $white !default
+elements\table.sass:$table-cell-border: 1px solid $grey-lighter !default
+elements\table.sass:$table-cell-border-width: 0 0 1px !default
+elements\table.sass:$table-cell-padding: 0.5em 0.75em !default
+elements\table.sass:$table-cell-heading-color: $text-strong !default
+elements\table.sass:$table-head-cell-border-width: 0 0 2px !default
+elements\table.sass:$table-head-cell-color: $text-strong !default
+elements\table.sass:$table-foot-cell-border-width: 2px 0 0 !default
+elements\table.sass:$table-foot-cell-color: $text-strong !default
+elements\table.sass:$table-row-hover-background-color: $white-bis !default
+elements\table.sass:$table-row-active-background-color: $primary !default
+elements\table.sass:$table-row-active-color: $primary-invert !default
+elements\table.sass:$table-striped-row-even-background-color: $white-bis !default
+elements\table.sass:$table-striped-row-even-hover-background-color: $white-ter !default
+elements\tag.sass:$tag-background-color: $background !default
+elements\tag.sass:$tag-color: $text !default
+elements\tag.sass:$tag-radius: $radius !default
+elements\tag.sass:$tag-delete-margin: 1px !default
+elements\title.sass:$title-color: $grey-darker !default
+elements\title.sass:$title-size: $size-3 !default
+elements\title.sass:$title-weight: $weight-semibold !default
+elements\title.sass:$title-line-height: 1.125 !default
+elements\title.sass:$title-strong-color: inherit !default
+elements\title.sass:$title-strong-weight: inherit !default
+elements\title.sass:$title-sub-size: 0.75em !default
+elements\title.sass:$title-sup-size: 0.75em !default
+elements\title.sass:$subtitle-color: $grey-dark !default
+elements\title.sass:$subtitle-size: $size-5 !default
+elements\title.sass:$subtitle-weight: $weight-normal !default
+elements\title.sass:$subtitle-line-height: 1.25 !default
+elements\title.sass:$subtitle-strong-color: $grey-darker !default
+elements\title.sass:$subtitle-strong-weight: $weight-semibold !default
+elements\title.sass:$subtitle-negative-margin: -1.25rem !default
+components\breadcrumb.sass:$breadcrumb-item-color: $link !default
+components\breadcrumb.sass:$breadcrumb-item-hover-color: $link-hover !default
+components\breadcrumb.sass:$breadcrumb-item-active-color: $text-strong !default
+components\breadcrumb.sass:$breadcrumb-item-padding-vertical: 0 !default
+components\breadcrumb.sass:$breadcrumb-item-padding-horizontal: 0.75em !default
+components\breadcrumb.sass:$breadcrumb-item-separator-color: $grey-light !default
+components\card.sass:$card-color: $text !default
+components\card.sass:$card-background-color: $white !default
+components\card.sass:$card-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
+components\card.sass:$card-header-background-color: none !default
+components\card.sass:$card-header-color: $text-strong !default
+components\card.sass:$card-header-shadow: 0 1px 2px rgba($black, 0.1) !default
+components\card.sass:$card-header-weight: $weight-bold !default
+components\card.sass:$card-content-background-color: none !default
+components\card.sass:$card-footer-background-color: none !default
+components\card.sass:$card-footer-border-top: 1px solid $border !default
+components\dropdown.sass:$dropdown-content-background-color: $white !default
+components\dropdown.sass:$dropdown-content-arrow: $link !default
+components\dropdown.sass:$dropdown-content-offset: 4px !default
+components\dropdown.sass:$dropdown-content-radius: $radius !default
+components\dropdown.sass:$dropdown-content-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
+components\dropdown.sass:$dropdown-content-z: 20 !default
+components\dropdown.sass:$dropdown-item-color: $grey-dark !default
+components\dropdown.sass:$dropdown-item-hover-color: $black !default
+components\dropdown.sass:$dropdown-item-hover-background-color: $background !default
+components\dropdown.sass:$dropdown-item-active-color: $link-invert !default
+components\dropdown.sass:$dropdown-item-active-background-color: $link !default
+components\dropdown.sass:$dropdown-divider-background-color: $border !default
+grid\columns.sass:$column-gap: 0.75rem !default
+components\message.sass:$message-background-color: $background !default
+components\message.sass:$message-radius: $radius !default
+components\message.sass:$message-header-background-color: $text !default
+components\message.sass:$message-header-color: $text-invert !default
+components\message.sass:$message-header-weight: $weight-bold !default
+components\message.sass:$message-header-padding: 0.75em 1em !default
+components\message.sass:$message-header-radius: $radius !default
+components\message.sass:$message-body-border-color: $border !default
+components\message.sass:$message-body-border-width: 0 0 0 4px !default
+components\message.sass:$message-body-color: $text !default
+components\message.sass:$message-body-padding: 1.25em 1.5em !default
+components\message.sass:$message-body-radius: $radius !default
+components\message.sass:$message-body-pre-background-color: $white !default
+components\message.sass:$message-body-pre-code-background-color: transparent !default
+components\message.sass:$message-header-body-border-width: 0 !default
+components\modal.sass:$modal-z: 40 !default
+components\modal.sass:$modal-background-background-color: rgba($black, 0.86) !default
+components\modal.sass:$modal-content-width: 640px !default
+components\modal.sass:$modal-content-margin-mobile: 20px !default
+components\modal.sass:$modal-content-spacing-mobile: 160px !default
+components\modal.sass:$modal-content-spacing-tablet: 40px !default
+components\modal.sass:$modal-close-dimensions: 40px !default
+components\modal.sass:$modal-close-right: 20px !default
+components\modal.sass:$modal-close-top: 20px !default
+components\modal.sass:$modal-card-spacing: 40px !default
+components\modal.sass:$modal-card-head-background-color: $background !default
+components\modal.sass:$modal-card-head-border-bottom: 1px solid $border !default
+components\modal.sass:$modal-card-head-padding: 20px !default
+components\modal.sass:$modal-card-head-radius: $radius-large !default
+components\modal.sass:$modal-card-title-color: $text-strong !default
+components\modal.sass:$modal-card-title-line-height: 1 !default
+components\modal.sass:$modal-card-title-size: $size-4 !default
+components\modal.sass:$modal-card-foot-radius: $radius-large !default
+components\modal.sass:$modal-card-foot-border-top: 1px solid $border !default
+components\modal.sass:$modal-card-body-background-color: $white !default
+components\modal.sass:$modal-card-body-padding: 20px !default
+components\navbar.sass:$navbar-background-color: $white !default
+components\navbar.sass:$navbar-box-shadow-size: 0 2px 0 0 !default
+components\navbar.sass:$navbar-box-shadow-color: $background !default
+components\navbar.sass:$navbar-height: 3.25rem !default
+components\navbar.sass:$navbar-padding-vertical: 1rem !default
+components\navbar.sass:$navbar-padding-horizontal: 2rem !default
+components\navbar.sass:$navbar-z: 30 !default
+components\navbar.sass:$navbar-fixed-z: 30 !default
+components\navbar.sass:$navbar-item-color: $grey-dark !default
+components\navbar.sass:$navbar-item-hover-color: $link !default
+components\navbar.sass:$navbar-item-hover-background-color: $white-bis !default
+components\navbar.sass:$navbar-item-active-color: $black !default
+components\navbar.sass:$navbar-item-active-background-color: transparent !default
+components\navbar.sass:$navbar-item-img-max-height: 1.75rem !default
+components\navbar.sass:$navbar-tab-hover-background-color: transparent !default
+components\navbar.sass:$navbar-tab-hover-border-bottom-color: $link !default
+components\navbar.sass:$navbar-tab-active-color: $link !default
+components\navbar.sass:$navbar-tab-active-background-color: transparent !default
+components\navbar.sass:$navbar-tab-active-border-bottom-color: $link !default
+components\navbar.sass:$navbar-tab-active-border-bottom-style: solid !default
+components\navbar.sass:$navbar-tab-active-border-bottom-width: 3px !default
+components\navbar.sass:$navbar-dropdown-background-color: $white !default
+components\navbar.sass:$navbar-dropdown-border-top: 2px solid $border !default
+components\navbar.sass:$navbar-dropdown-offset: -4px !default
+components\navbar.sass:$navbar-dropdown-arrow: $link !default
+components\navbar.sass:$navbar-dropdown-radius: $radius-large !default
+components\navbar.sass:$navbar-dropdown-z: 20 !default
+components\navbar.sass:$navbar-dropdown-boxed-radius: $radius-large !default
+components\navbar.sass:$navbar-dropdown-boxed-shadow: 0 8px 8px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
+components\navbar.sass:$navbar-dropdown-item-hover-color: $black !default
+components\navbar.sass:$navbar-dropdown-item-hover-background-color: $background !default
+components\navbar.sass:$navbar-dropdown-item-active-color: $link !default
+components\navbar.sass:$navbar-dropdown-item-active-background-color: $background !default
+components\navbar.sass:$navbar-divider-background-color: $background !default
+components\navbar.sass:$navbar-divider-height: 2px !default
+components\navbar.sass:$navbar-bottom-box-shadow-size: 0 -2px 0 0 !default
+components\panel.sass:$panel-item-border: 1px solid $border !default
+components\panel.sass:$panel-heading-background-color: $background !default
+components\panel.sass:$panel-heading-color: $text-strong !default
+components\panel.sass:$panel-heading-line-height: 1.25 !default
+components\panel.sass:$panel-heading-padding: 0.5em 0.75em !default
+components\panel.sass:$panel-heading-radius: $radius !default
+components\panel.sass:$panel-heading-size: 1.25em !default
+components\panel.sass:$panel-heading-weight: $weight-light !default
+components\panel.sass:$panel-tab-border-bottom: 1px solid $border !default
+components\panel.sass:$panel-tab-active-border-bottom-color: $link-active-border !default
+components\panel.sass:$panel-tab-active-color: $link-active !default
+components\panel.sass:$panel-list-item-color: $text !default
+components\panel.sass:$panel-list-item-hover-color: $link !default
+components\panel.sass:$panel-block-color: $text-strong !default
+components\panel.sass:$panel-block-hover-background-color: $background !default
+components\panel.sass:$panel-block-active-border-left-color: $link !default
+components\panel.sass:$panel-block-active-color: $link-active !default
+components\panel.sass:$panel-block-active-icon-color: $link !default
+components\panel.sass:$panel-icon-color: $text-light !default
+components\pagination.sass:$pagination-color: $grey-darker !default
+components\pagination.sass:$pagination-border-color: $grey-lighter !default
+components\pagination.sass:$pagination-margin: -0.25rem !default
+components\pagination.sass:$pagination-hover-color: $link-hover !default
+components\pagination.sass:$pagination-hover-border-color: $link-hover-border !default
+components\pagination.sass:$pagination-focus-color: $link-focus !default
+components\pagination.sass:$pagination-focus-border-color: $link-focus-border !default
+components\pagination.sass:$pagination-active-color: $link-active !default
+components\pagination.sass:$pagination-active-border-color: $link-active-border !default
+components\pagination.sass:$pagination-disabled-color: $grey !default
+components\pagination.sass:$pagination-disabled-background-color: $grey-lighter !default
+components\pagination.sass:$pagination-disabled-border-color: $grey-lighter !default
+components\pagination.sass:$pagination-current-color: $link-invert !default
+components\pagination.sass:$pagination-current-background-color: $link !default
+components\pagination.sass:$pagination-current-border-color: $link !default
+components\pagination.sass:$pagination-ellipsis-color: $grey-light !default
+components\tabs.sass:$tabs-border-bottom-color: $border !default
+components\tabs.sass:$tabs-border-bottom-style: solid !default
+components\tabs.sass:$tabs-border-bottom-width: 1px !default
+components\tabs.sass:$tabs-link-color: $text !default
+components\tabs.sass:$tabs-link-hover-border-bottom-color: $text-strong !default
+components\tabs.sass:$tabs-link-hover-color: $text-strong !default
+components\tabs.sass:$tabs-link-active-border-bottom-color: $link !default
+components\tabs.sass:$tabs-link-active-color: $link !default
+components\tabs.sass:$tabs-link-padding: 0.5em 1em !default
+components\tabs.sass:$tabs-boxed-link-radius: $radius !default
+components\tabs.sass:$tabs-boxed-link-hover-background-color: $background !default
+components\tabs.sass:$tabs-boxed-link-hover-border-bottom-color: $border !default
+components\tabs.sass:$tabs-boxed-link-active-background-color: $white !default
+components\tabs.sass:$tabs-boxed-link-active-border-color: $border !default
+components\tabs.sass:$tabs-boxed-link-active-border-bottom-color: transparent !default
+components\tabs.sass:$tabs-toggle-link-border-color: $border !default
+components\tabs.sass:$tabs-toggle-link-border-style: solid !default
+components\tabs.sass:$tabs-toggle-link-border-width: 1px !default
+components\tabs.sass:$tabs-toggle-link-hover-background-color: $background !default
+components\tabs.sass:$tabs-toggle-link-hover-border-color: $border-hover !default
+components\tabs.sass:$tabs-toggle-link-radius: $radius !default
+components\tabs.sass:$tabs-toggle-link-active-background-color: $link !default
+components\tabs.sass:$tabs-toggle-link-active-border-color: $link !default
+components\tabs.sass:$tabs-toggle-link-active-color: $link-invert !default
+layout\footer.sass:$footer-background-color: $white-bis !default
+layout\section.sass:$section-padding: 3rem 1.5rem !default
+layout\section.sass:$section-padding-medium: 9rem 1.5rem !default
+layout\section.sass:$section-padding-large: 18rem 1.5rem !default
+utilities\controls.sass:$control-radius: $radius !default
+utilities\controls.sass:$control-radius-small: $radius-small !default
+utilities\controls.sass:$control-border-width: 1px !default
+utilities\controls.sass:$control-padding-vertical: calc(0.375em - #{$control-border-width}) !default
+utilities\controls.sass:$control-padding-horizontal: calc(0.625em - #{$control-border-width}) !default
+utilities\derived-variables.sass:$primary: $turquoise !default
+utilities\derived-variables.sass:$info: $cyan !default
+utilities\derived-variables.sass:$success: $green !default
+utilities\derived-variables.sass:$warning: $yellow !default
+utilities\derived-variables.sass:$danger: $red !default
+utilities\derived-variables.sass:$light: $white-ter !default
+utilities\derived-variables.sass:$dark: $grey-darker !default
+utilities\derived-variables.sass:$orange-invert: findColorInvert($orange) !default
+utilities\derived-variables.sass:$yellow-invert: findColorInvert($yellow) !default
+utilities\derived-variables.sass:$green-invert: findColorInvert($green) !default
+utilities\derived-variables.sass:$turquoise-invert: findColorInvert($turquoise) !default
+utilities\derived-variables.sass:$cyan-invert: findColorInvert($cyan) !default
+utilities\derived-variables.sass:$blue-invert: findColorInvert($blue) !default
+utilities\derived-variables.sass:$purple-invert: findColorInvert($purple) !default
+utilities\derived-variables.sass:$red-invert: findColorInvert($red) !default
+utilities\derived-variables.sass:$primary-invert: $turquoise-invert !default
+utilities\derived-variables.sass:$info-invert: $cyan-invert !default
+utilities\derived-variables.sass:$success-invert: $green-invert !default
+utilities\derived-variables.sass:$warning-invert: $yellow-invert !default
+utilities\derived-variables.sass:$danger-invert: $red-invert !default
+utilities\derived-variables.sass:$light-invert: $dark !default
+utilities\derived-variables.sass:$dark-invert: $light !default
+utilities\derived-variables.sass:$background: $white-ter !default
+utilities\derived-variables.sass:$border: $grey-lighter !default
+utilities\derived-variables.sass:$border-hover: $grey-light !default
+utilities\derived-variables.sass:$text: $grey-dark !default
+utilities\derived-variables.sass:$text-invert: findColorInvert($text) !default
+utilities\derived-variables.sass:$text-light: $grey !default
+utilities\derived-variables.sass:$text-strong: $grey-darker !default
+utilities\derived-variables.sass:$code: $red !default
+utilities\derived-variables.sass:$code-background: $background !default
+utilities\derived-variables.sass:$pre: $text !default
+utilities\derived-variables.sass:$pre-background: $background !default
+utilities\derived-variables.sass:$link: $blue !default
+utilities\derived-variables.sass:$link-invert: $blue-invert !default
+utilities\derived-variables.sass:$link-visited: $purple !default
+utilities\derived-variables.sass:$link-hover: $grey-darker !default
+utilities\derived-variables.sass:$link-hover-border: $grey-light !default
+utilities\derived-variables.sass:$link-focus: $grey-darker !default
+utilities\derived-variables.sass:$link-focus-border: $blue !default
+utilities\derived-variables.sass:$link-active: $grey-darker !default
+utilities\derived-variables.sass:$link-active-border: $grey-dark !default
+utilities\derived-variables.sass:$family-primary: $family-sans-serif !default
+utilities\derived-variables.sass:$family-code: $family-monospace !default
+utilities\derived-variables.sass:$size-small: $size-7 !default
+utilities\derived-variables.sass:$size-normal: $size-6 !default
+utilities\derived-variables.sass:$size-medium: $size-5 !default
+utilities\derived-variables.sass:$size-large: $size-4 !default
+utilities\derived-variables.sass:$custom-colors: null !default
+utilities\derived-variables.sass:$custom-shades: null !default
+utilities\derived-variables.sass:$colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "link": ($link, $link-invert), "info": ($info, $info-invert), "success": ($success, $success-invert), "warning": ($warning, $warning-invert), "danger": ($danger, $danger-invert)), $custom-colors) !default
+utilities\derived-variables.sass:$shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades) !default
+utilities\derived-variables.sass:$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default
+utilities\initial-variables.sass:$black:        hsl(0, 0%, 4%) !default
+utilities\initial-variables.sass:$black-bis:    hsl(0, 0%, 7%) !default
+utilities\initial-variables.sass:$black-ter:    hsl(0, 0%, 14%) !default
+utilities\initial-variables.sass:$grey-darker:  hsl(0, 0%, 21%) !default
+utilities\initial-variables.sass:$grey-dark:    hsl(0, 0%, 29%) !default
+utilities\initial-variables.sass:$grey:         hsl(0, 0%, 48%) !default
+utilities\initial-variables.sass:$grey-light:   hsl(0, 0%, 71%) !default
+utilities\initial-variables.sass:$grey-lighter: hsl(0, 0%, 86%) !default
+utilities\initial-variables.sass:$white-ter:    hsl(0, 0%, 96%) !default
+utilities\initial-variables.sass:$white-bis:    hsl(0, 0%, 98%) !default
+utilities\initial-variables.sass:$white:        hsl(0, 0%, 100%) !default
+utilities\initial-variables.sass:$orange:       hsl(14,  100%, 53%) !default
+utilities\initial-variables.sass:$yellow:       hsl(48,  100%, 67%) !default
+utilities\initial-variables.sass:$green:        hsl(141, 71%,  48%) !default
+utilities\initial-variables.sass:$turquoise:    hsl(171, 100%, 41%) !default
+utilities\initial-variables.sass:$cyan:         hsl(204, 86%,  53%) !default
+utilities\initial-variables.sass:$blue:         hsl(217, 71%,  53%) !default
+utilities\initial-variables.sass:$purple:       hsl(271, 100%, 71%) !default
+utilities\initial-variables.sass:$red:          hsl(348, 100%, 61%) !default
+utilities\initial-variables.sass:$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default
+utilities\initial-variables.sass:$family-monospace: monospace !default
+utilities\initial-variables.sass:$render-mode: optimizeLegibility !default
+utilities\initial-variables.sass:$size-1: 3rem !default
+utilities\initial-variables.sass:$size-2: 2.5rem !default
+utilities\initial-variables.sass:$size-3: 2rem !default
+utilities\initial-variables.sass:$size-4: 1.5rem !default
+utilities\initial-variables.sass:$size-5: 1.25rem !default
+utilities\initial-variables.sass:$size-6: 1rem !default
+utilities\initial-variables.sass:$size-7: 0.75rem !default
+utilities\initial-variables.sass:$weight-light: 300 !default
+utilities\initial-variables.sass:$weight-normal: 400 !default
+utilities\initial-variables.sass:$weight-medium: 500 !default
+utilities\initial-variables.sass:$weight-semibold: 600 !default
+utilities\initial-variables.sass:$weight-bold: 700 !default
+utilities\initial-variables.sass:$gap: 64px !default
+utilities\initial-variables.sass:$tablet: 769px !default
+utilities\initial-variables.sass:$desktop: 960px + (2 * $gap) !default
+utilities\initial-variables.sass:$widescreen: 1152px + (2 * $gap) !default
+utilities\initial-variables.sass:$widescreen-enabled: true !default
+utilities\initial-variables.sass:$fullhd: 1344px + (2 * $gap) !default
+utilities\initial-variables.sass:$fullhd-enabled: true !default
+utilities\initial-variables.sass:$easing: ease-out !default
+utilities\initial-variables.sass:$radius-small: 2px !default
+utilities\initial-variables.sass:$radius: 4px !default
+utilities\initial-variables.sass:$radius-large: 6px !default
+utilities\initial-variables.sass:$radius-rounded: 290486px !default
+utilities\initial-variables.sass:$speed: 86ms !default
+utilities\initial-variables.sass:$variable-columns: true !default
+components\menu.sass:$menu-item-color: $text !default
+components\menu.sass:$menu-item-radius: $radius-small !default
+components\menu.sass:$menu-item-hover-color: $text-strong !default
+components\menu.sass:$menu-item-hover-background-color: $background !default
+components\menu.sass:$menu-item-active-color: $link-invert !default
+components\menu.sass:$menu-item-active-background-color: $link !default
+components\menu.sass:$menu-list-border-left: 1px solid $border !default
+components\menu.sass:$menu-label-color: $text-light !default
